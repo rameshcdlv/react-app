@@ -41,7 +41,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-
+<h1>User Cards</h1>
           <Search placeholder="Search Users" handleChange={this.handleChange}></Search>
           <CardList usersInfo={searchUserResult}>
           </CardList>
